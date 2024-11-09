@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1c3d5a;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Main Content */
+  .container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #1c3d5a;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+  }
+  
+  /* Team Profiles */
+  .team-member {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 4px solid #1c3d5a;
+    background: #f9fafc;
+    border-radius: 5px;
+  }
+  
+  .team-member h3 {
+    margin-bottom: 10px;
+    color: #1c3d5a;
+    font-size: 1.4rem;
+  }
+  
+  .team-member ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  /* Practice Areas */
+  .practice-areas {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .practice-areas li {
+    background-color: #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    flex: 1 1 30%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1c3d5a;
+    font-weight: bold;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  
+  .contact-form button {
+    background-color: #1c3d5a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2d4d6f;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1c3d5a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+
+
+/* Styles for Client Logos Section */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+}
+
+.client-logo {
+  display: inline-block;
+  width: 18%;          /* Adjust width to fit all 10 images in rows */
+  margin: 1%;          /* Spacing between images */
+  text-align: center;  /* Center-aligns each logo */
+}
+
+.client-logo img {
+  width: 150px;         /* Fixed width for uniform size */
+  height: 100px;        /* Fixed height for uniform size */
+  object-fit: cover;    /* Ensures the image fills the space, cropping if necessary */
+  border-radius: 8px;   /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for a polished look */
+  transition: transform 0.3s ease; /* Smooth zoom on hover */
+}
+
+/* Hover effect to slightly zoom in the logo */
+.client-logo img:hover {
+  transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+
+
+  
